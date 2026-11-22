@@ -1,0 +1,1 @@
+Requires MySQL Connector/J and schema.sql. Run `MigrationTool data/bus_passes.csv`; it validates rows, inserts valid rows in batches in one transaction, reports rejected rows, and prints DatabaseMetaData.
